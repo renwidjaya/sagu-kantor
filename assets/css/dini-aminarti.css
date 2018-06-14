@@ -1,0 +1,20 @@
+.mybg{
+	background:url('../../img/Latar.png');
+	background-repeat:no-repeat;
+	background-position:top;
+	background-position:right;
+	height:100%;
+}
+.mybg2{
+	background:url('../../img/Latar2.png');
+	background-repeat:no-repeat;
+	background-position:top;
+	background-position:right;
+	height:100%;
+}
+.myline{
+	border:1px solid #666699 !important;
+ }
+.myline:focus{
+    border:1px solid #FF6600 !important;
+}

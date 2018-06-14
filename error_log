@@ -1,0 +1,2 @@
+[02-Jan-2018 12:42:38 UTC] PHP Fatal error:  Call to undefined method Model_laporan::cek_sak() in /home/funed713/public_html/sagu-server/application/controllers/Laporan.php on line 2317
+[02-Jan-2018 12:44:09 UTC] PHP Fatal error:  Call to undefined method Model_laporan::cek_sak() in /home/funed713/public_html/sagu-server/application/controllers/Laporan.php on line 2317

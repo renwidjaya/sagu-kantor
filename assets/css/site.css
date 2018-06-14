@@ -1,0 +1,305 @@
+html,
+body {
+    height: 100%;
+	background-color:#000F40;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;	
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+	color:#FFCC33;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+.panel{
+    padding: 3px;
+	border:solid 1px #003366;
+}
+.panelku{
+    padding: 3px;
+	border:solid 1px #003366;
+	background: #FFCC00;
+	border-radius:3px;
+}
+.panel-atri{
+	background:#FFD940;!important
+}
+.pos_footer{
+	width:108%;
+	border-bottom:solid 2px #FF9900;
+	border-top:solid 2px #FF9900;
+	margin-top:20px;
+	background-color: #2131EF;
+	color:#FFFFFF;
+	font-family:"Comic Sans MS";
+	font-size:16px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:-20px;
+}
+.labaika{
+	color: #000033;
+	text-align:center;
+	font-size: 2em;
+  	font-family: Brush Script; !important
+}
+.judul_page{
+	border-bottom:solid 2px #000066;
+	border-top:solid 2px #000066;
+	margin-bottom:20px;
+	background:url('../images/Bg_Judul_Konten.png');
+	background-repeat:repeat-x;
+	color:#FFFFFF;
+	font-family:"Arial Black";
+	font-size:18px;
+	text-align:center;
+	padding-top:5px;
+	height:39px;
+}
+.judul_konten2{
+	width:100%;
+	height:35px;
+	background:url('../images/Heading2.png');
+	background-repeat:no-repeat;
+	padding-left:60px;
+	padding-top:5px;
+	font-size:18px;
+	font-family:"Comic Sans MS";
+	color:#FFFFFF;
+	margin-bottom:15px;
+}
+.btn-detail{
+	display:inline-block;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	width:120px;
+	height:35px;
+	color: #FFFFFF;
+	text-align:center;
+	background:URL('../images/Btn4.png');
+	padding-top:7px;
+}
+.btn-detail:hover,.btn-detail:focus,.btn-detail:active,.btn-detail.active,.open .dropdown-toggle.btn-detail{
+	color:#FFFFFF;
+	background:URL('../images/Btn5.png');
+	text-decoration:none;
+}
+.garis_bawah{
+	border-bottom:solid 1px #003366;
+}
+
+/* Image Hover Effect */
+.img-container {
+ width: 100%;
+ height: auto;
+ overflow: hidden;
+ -moz-transition: all 0.25s ease;
+ -o-transition: all 0.25s ease;
+ -webkit-transition: all 0.25s ease;
+ transition: all 0.25s ease;
+}
+.img-container img {
+ width: 100%;
+ -moz-transition: -moz-transform, all 0.25s ease;
+ -o-transition: -o-transform, all 0.25s ease;
+ -webkit-transition: -webkit-transform, all 0.25s ease;
+ transition: transform, all 0.25s ease;
+}
+.img-container img:hover {
+ -moz-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+ transform: scale(1.2);
+}
+
+.pic {
+  float: left;  
+  width: 325px;
+  height: 210px;
+  overflow: hidden;
+  margin-bottom:10px;
+}
+
+/* Image Tilt Effect */
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+/* Image Grow Effect */
+.grow img {
+  height: 100%;
+  width: 100%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 110%;
+  height: 110%;
+  
+  -webkit-transform: rotate(2deg);
+     -moz-transform: rotate(2deg);
+       -o-transform: rotate(2deg);
+      -ms-transform: rotate(2deg);
+          transform: rotate(2deg);
+
+
+/* Image Sidepan Effect (Bergerak ke kiri */
+.sidepan img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.sidepan img:hover {
+  margin-left: -200px;
+}
+
+/* Image Vertpan Effect (Bergerak ke atas */
+.vertpan img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.vertpan img:hover {
+  margin-top: -200px;
+}
+
+/* Image Morph effect (Berubah jadi lingkaran) */
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/* Image focus effect (berubah jadi lingkaran, model 2) */
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.focus:hover {
+  border: 70px solid #000;
+  border-radius: 50%;
+}
+
+
